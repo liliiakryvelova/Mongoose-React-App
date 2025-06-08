@@ -1,7 +1,6 @@
 module.exports = {
   root: true,
   env: {
-    browser: true,
     node: true,
     es6: true,
   },
@@ -11,9 +10,6 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:react/jsx-runtime',
-    'plugin:jsx-a11y/recommended',
     'prettier',
   ],
   settings: {
